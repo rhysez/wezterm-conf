@@ -1,7 +1,6 @@
-local wezterm = require 'wezterm'
-
 return {
-  color_scheme = "Dracula (Official)",
-  use_fancy_tab_bar = false,
-  font_size = 13.5
+    color_scheme = 'Gruvbox dark, pale (base16)',
+    tab_bar_at_bottom = true,
+    use_fancy_tab_bar = false,
+    window_decorations = "RESIZE"
 }
